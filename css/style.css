@@ -44,6 +44,7 @@ body {
 .effect {
   text-align: center;
   color: var(--white-color);
+  background-color: var(--brand-color);
   background-image: url(images\img.jpg);
 }
 .effect-size {
@@ -218,4 +219,8 @@ body {
 }
 .description {
   padding-bottom: 94px;
+}
+.icon-header {
+  width: 10px;
+  height: 16px;
 }

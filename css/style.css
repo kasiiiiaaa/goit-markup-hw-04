@@ -45,6 +45,7 @@ body {
   text-align: center;
   color: var(--white-color);
   background-color: var(--brand-color);
+  background-image: url(images\img.jpg);
 }
 .effect-size {
   padding: 0px 250px;

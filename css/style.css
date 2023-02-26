@@ -43,9 +43,12 @@ body {
 }
 .effect {
   text-align: center;
+  max-width: 1600px;
+  background-position: 50% 50%;
   color: var(--white-color);
   background-image: url(../images/img.jpg);
   background-color: var(--brand-color);
+  background-image: linear-gradient(47, 48, 58, 0.4);
 }
 .effect-size {
   padding: 0px 250px;
@@ -229,5 +232,5 @@ body {
   width: 16px;
   height: 12px;
   color: var(--grey-color);
-  margin-left: 10px;
+  margin-right: 10px;
 }

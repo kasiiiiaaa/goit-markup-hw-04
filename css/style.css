@@ -226,11 +226,12 @@ body {
 .icon-header {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
   color: var(--grey-color);
 }
 .icon-header-1 {
   width: 16px;
   height: 12px;
-  color: var(--grey-color);
   margin-right: 10px;
+  color: var(--grey-color);
 }

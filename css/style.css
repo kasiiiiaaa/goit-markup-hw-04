@@ -225,3 +225,9 @@ body {
   height: 16px;
   color: var(--grey-color);
 }
+.icon-header-1 {
+  width: 16px;
+  height: 12px;
+  color: var(--grey-color);
+  margin-left: 10px;
+}

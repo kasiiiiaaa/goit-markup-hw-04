@@ -264,3 +264,6 @@ body {
 .flex-clien:hover {
   color: var(--secondary-color);
 }
+.line {
+  display: inline;
+}

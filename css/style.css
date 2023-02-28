@@ -240,6 +240,10 @@ body {
   width: 270px;
   margin-bottom: 30px;
 }
+.logo:focus,
+.logo:hover {
+  color: var(--secondary-color);
+}
 .logo-media {
   width: 20px;
   height: 20px;
@@ -248,4 +252,13 @@ body {
 .logo-client {
   width: 170px;
   height: 92px;
+  border: 1px solid #afb1b8;
+}
+.flex-client {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-client:focus,
+.flex-clien:hover {
+  color: var(--secondary-color);
 }

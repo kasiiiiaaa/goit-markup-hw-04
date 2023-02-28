@@ -44,7 +44,7 @@ body {
 .effect {
   text-align: center;
   max-width: 1600px;
-  background-position: 50% 50%;
+  margin: 0 auto;
   color: var(--white-color);
   background-image: url(../images/img.jpg);
   background-color: var(--brand-color);
@@ -146,13 +146,13 @@ body {
   letter-spacing: 0.02em;
   color: inherit;
 }
-.color-grey {
-  color: var(--grey-color);
-  text-decoration: none;
-}
 .link-color:focus,
 .link-color:hover {
   color: var(--secondary-color);
+}
+.color-grey {
+  color: var(--grey-color);
+  text-decoration: none;
 }
 .portraiture-2 {
   font-size: 14px;

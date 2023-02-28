@@ -148,6 +148,7 @@ body {
 }
 .color-grey {
   color: var(--grey-color);
+  text-decoration: none;
 }
 .link-color:focus,
 .link-color:hover {
@@ -248,6 +249,7 @@ body {
   width: 20px;
   height: 20px;
   padding-right: 10px;
+  padding-top: 16px;
 }
 .logo-client {
   width: 170px;

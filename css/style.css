@@ -238,8 +238,13 @@ body {
 .logo {
   height: 120px;
   width: 270px;
+  margin-bottom: 30px;
 }
 .logo-media {
   width: 20px;
   height: 20px;
+}
+.logo-client {
+  width: 170px;
+  height: 92px;
 }

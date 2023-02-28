@@ -235,3 +235,19 @@ body {
   margin-right: 10px;
   color: var(--grey-color);
 }
+.satellite {
+  height: 70px;
+  width: 65.31558227539062px;
+}
+.clock {
+  height: 70px;
+  width: 70px;
+}
+.star {
+  height: 15.458898544311523px;
+  width: 16.188182830810547px;
+}
+.astronomer {
+  height: 60.66291046142578px;
+  width: 54.83368682861328px;
+}

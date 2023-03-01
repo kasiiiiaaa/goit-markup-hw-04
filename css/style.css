@@ -264,6 +264,12 @@ body {
 .logo-client:hover {
   color: var(--secondary-color);
 }
+.circle {
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
 .flex-client {
   display: flex;
   justify-content: space-between;

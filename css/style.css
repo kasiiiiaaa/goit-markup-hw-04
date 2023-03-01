@@ -251,6 +251,10 @@ body {
   padding-right: 10px;
   padding-top: 16px;
 }
+.logo-media:focus,
+.logo-media:hover {
+  color: var(--secondary-color);
+}
 .logo-client {
   width: 170px;
   height: 92px;
@@ -261,7 +265,7 @@ body {
   justify-content: space-between;
 }
 .flex-client:focus,
-.flex-clien:hover {
+.flex-client:hover {
   color: var(--secondary-color);
 }
 .line {

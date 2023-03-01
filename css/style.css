@@ -248,8 +248,7 @@ body {
 .logo-media {
   width: 20px;
   height: 20px;
-  padding-right: 10px;
-  padding-top: 16px;
+  padding: 16px 30px 30px 32px;
 }
 .logo-media:focus,
 .logo-media:hover {
@@ -268,7 +267,6 @@ body {
   height: 44px;
   width: 44px;
   border-radius: 50px;
-  position: absolute;
 }
 .circle:focus,
 .circle-:hover {

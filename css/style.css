@@ -260,13 +260,13 @@ body {
   height: 92px;
   border: 1px solid #afb1b8;
 }
+.logo-client:focus,
+.logo-client:hover {
+  color: var(--secondary-color);
+}
 .flex-client {
   display: flex;
   justify-content: space-between;
-}
-.flex-client:focus,
-.flex-client:hover {
-  color: var(--secondary-color);
 }
 .line {
   display: inline;

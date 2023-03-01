@@ -270,6 +270,10 @@ body {
   height: 100px;
   width: 100px;
 }
+.circle:focus,
+.circle-:hover {
+  color: var(--secondary-color);
+}
 .flex-client {
   display: flex;
   justify-content: space-between;

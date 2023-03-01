@@ -265,14 +265,14 @@ body {
   color: var(--secondary-color);
 }
 .circle {
-  background-color: var(--secondary-color);
   border-radius: 50px;
-  height: 100px;
-  width: 100px;
+  height: 44px;
+  width: 44px;
 }
 .circle:focus,
 .circle-:hover {
   color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 .flex-client {
   display: flex;

@@ -46,7 +46,7 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   color: var(--white-color);
-  background-image: url(../images/img.jpg);
+  background-image: url(../images/hero.jpg);
   background-color: var(--brand-color);
   background-image: linear-gradient(47, 48, 58, 0.4);
 }

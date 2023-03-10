@@ -238,12 +238,14 @@ body {
 }
 .icon-header-1 {
   margin-right: 10px;
-  color: var(--grey-color);
+  fill: #757575;
+}
+.icon-header-1:hover {
+  fill: #2196f3;
 }
 .logo {
   margin-bottom: 30px;
 }
-.logo:focus,
 .logo:hover {
   color: var(--secondary-color);
 }

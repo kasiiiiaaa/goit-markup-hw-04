@@ -234,44 +234,46 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  color: var(--grey-color);
+  fill: var(--grey-color);
 }
 .icon-header-1 {
+  cursor: pointer;
   margin-right: 10px;
   fill: #757575;
 }
-.icon-header-1:hover {
+.icon-header-1:hover,
+.icon-header-1:focus {
   fill: #2196f3;
 }
 .logo {
   margin-bottom: 30px;
 }
-.logo:hover {
-  color: var(--secondary-color);
-}
 .logo-media {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
   padding-right: 10px;
   padding-top: 16px;
 }
 .logo-media:focus,
 .logo-media:hover {
-  color: var(--secondary-color);
+  fill: var(--secondary-color);
 }
 .logo-client {
+  cursor: pointer;
   border: 1px solid #afb1b8;
+  fill: var(--grey-color);
 }
-.logo-client:focus,
-.logo-client:hover {
-  color: var(--secondary-color);
+.logo-client:hover,
+.logo-client:focus {
+  fill: var(--secondary-color);
 }
 .circle {
-  height: 44px;
-  width: 44px;
   border-radius: 50px;
 }
 .circle:focus,
 .circle-:hover {
-  color: var(--secondary-color);
+  fill: var(--secondary-color);
   background-color: var(--secondary-color);
 }
 .flex-client {

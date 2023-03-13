@@ -9,6 +9,7 @@
   --canary-color: #ffffff99;
   --light-grey-color: #eeeeee;
   --very-light-grey-color: #ececec;
+  --high-light-grey-color: #afb1b8;
 }
 * {
   margin: 0;
@@ -215,7 +216,7 @@ body {
   letter-spacing: 0.03em;
 }
 .signature-center {
-  padding: 30px 61px 30px 62px;
+  padding: 30px 0px;
   display: block;
   text-align: center;
   box-shadow: var(--white-color);
@@ -250,12 +251,6 @@ body {
 .description {
   padding-bottom: 94px;
 }
-.icon-header {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: var(--grey-color);
-}
 .icon-header-1 {
   cursor: pointer;
   margin-right: 10px;
@@ -267,11 +262,12 @@ body {
   margin-bottom: 30px;
 }
 .logo-media {
-  height: 30px;
-  width: 30px;
+  display: inline;
+  height: 20px;
+  width: 20px;
   cursor: pointer;
-  padding-right: 10px;
-  padding-top: 16px;
+  margin: 30px 15px 0px 15px;
+  fill: var(--high-light-grey-color);
 }
 .logo-media-1 {
   cursor: pointer;
@@ -279,18 +275,29 @@ body {
   padding-top: 16px;
 }
 .logo-media-1:hover {
-  fill: var(--secondary-color);
+  padding: 12px;
+  height: 44px;
+  width: 44px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  fill: var(--white-color);
 }
 .logo-media:hover {
-  fill: var(--secondary-color);
+  padding: 12px;
+  height: 44px;
+  width: 44px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  fill: var(--white-color);
 }
 .logo-client {
   cursor: pointer;
   border: 1px solid #afb1b8;
-  fill: var(--grey-color);
+  fill: var(--high-light-grey-color);
 }
 .logo-client:hover {
   fill: var(--secondary-color);
+  border: 1px solid #2196f3;
 }
 .flex-client {
   display: flex;

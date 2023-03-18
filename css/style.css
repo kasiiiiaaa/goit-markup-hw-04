@@ -280,7 +280,6 @@ body {
   width: 44px;
   background-color: var(--secondary-color);
   border-radius: 50%;
-  fill: var(--white-color);
 }
 .logo-media:hover {
   padding: 12px;

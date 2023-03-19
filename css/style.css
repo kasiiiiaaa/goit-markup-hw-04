@@ -47,9 +47,9 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   color: var(--white-color);
+  background-image: linear-gradient(#2f303a66, #2f303a66);
   background-image: url(../images/img.jpg);
   background-color: var(--brand-color);
-  background-image: linear-gradient(47, 48, 58, 0.4);
 }
 .effect-size {
   padding: 0px 250px;
@@ -94,9 +94,8 @@ body {
 }
 .button-2:hover,
 .button-2:focus {
-  box-shadow: 0px 2px 2px 0px #0000001f;
-  box-shadow: 0px 1px 2px 0px #00000014;
-  box-shadow: 0px 3px 1px 0px #0000001a;
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
   background-color: var(--secondary-color);
   color: var(--white-color);
 }
@@ -244,9 +243,8 @@ body {
 }
 .item:hover,
 .item:focus {
-  box-shadow: 1px 4px 6px 0px #00000029;
-  box-shadow: 0px 4px 4px 0px #0000000f;
-  box-shadow: 0px 1px 1px 0px #0000001f;
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+    0px 1px 1px 0px #0000001f;
 }
 .description {
   padding-bottom: 94px;
@@ -262,32 +260,23 @@ body {
   margin-bottom: 30px;
 }
 .logo-media {
-  display: inline;
-  height: 20px;
-  width: 20px;
+  margin-top: 16px;
+  padding: 12px;
   cursor: pointer;
-  margin: 30px 15px 0px 15px;
+  border-radius: 50%;
   fill: var(--high-light-grey-color);
 }
+.logo-media:hover {
+  background-color: var(--secondary-color);
+  fill: var(--white-color);
+}
 .logo-media-1 {
+  margin-top: 20px;
   cursor: pointer;
-  padding-right: 10px;
-  padding-top: 16px;
+  border-radius: 50%;
 }
 .logo-media-1:hover {
-  padding: 12px;
-  height: 44px;
-  width: 44px;
   background-color: var(--secondary-color);
-  border-radius: 50%;
-}
-.logo-media:hover {
-  padding: 12px;
-  height: 44px;
-  width: 44px;
-  background-color: var(--secondary-color);
-  border-radius: 50%;
-  fill: var(--white-color);
 }
 .logo-client {
   cursor: pointer;
@@ -306,7 +295,6 @@ body {
   display: inline;
 }
 .shade {
-  box-shadow: 0px 2px 1px 0px #00000033;
-  box-shadow: 0px 1px 1px 0px #00000024;
-  box-shadow: 0px 1px 3px 0px #0000001f;
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
 }

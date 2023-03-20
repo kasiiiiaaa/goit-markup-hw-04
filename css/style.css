@@ -296,7 +296,6 @@ body {
 }
 .social-link:hover {
   background-color: var(--secondary-color);
-  fill: var(--white-color);
 }
 .social-links {
   display: flex;
@@ -306,6 +305,9 @@ body {
   fill: var(--grey-color);
 }
 .icon:hover {
-  background-color: var(--secondary-color);
   fill: var(--white-color);
+}
+.logo-media-2 {
+  display: inline-flex;
+  justify-content: space-between;
 }

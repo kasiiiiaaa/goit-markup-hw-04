@@ -291,9 +291,12 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  margin-top: 16px;
+  padding: 12px;
 }
 .social-link:hover {
-  background-color: #2196f3;
+  background-color: var(--secondary-color);
+  fill: var(--white-color);
 }
 .social-links {
   display: flex;
@@ -303,5 +306,6 @@ body {
   fill: var(--grey-color);
 }
 .icon:hover {
-  background-color: var(--white-color);
+  background-color: var(--secondary-color);
+  fill: var(--white-color);
 }

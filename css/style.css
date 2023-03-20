@@ -297,11 +297,10 @@ body {
 }
 .social-links {
   display: flex;
-  margin-top: 16px;
-  padding: 0px 10px;
+  justify-content: center;
 }
 .icon {
-  color: var(--grey-color);
+  fill: var(--grey-color);
 }
 .icon:hover {
   background-color: var(--white-color);
